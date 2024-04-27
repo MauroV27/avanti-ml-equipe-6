@@ -6,6 +6,7 @@
 - [Augusto Cesar](https://github.com/augustces)
 - [Joao Victor](https://github.com/JoaoPROFECIA)
 - [Mario Umbelino](https://github.com/marioumbelino)
+- [Mauro Victor](https://github.com/MauroV27)
 - [Rodrigo Chaveiro](https://github.com/big-rodrigo)
 - [Victor Mendes](https://github.com/dvktr)
 
