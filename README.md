@@ -10,7 +10,9 @@
 - [Rodrigo Chaveiro](https://github.com/big-rodrigo)
 - [Victor Mendes](https://github.com/dvktr)
 
-# Dataset: [Fingers](https://www.kaggle.com/datasets/koryakinp/fingers)
+<br>
+
+> Dataset: [Fingers](https://www.kaggle.com/datasets/koryakinp/fingers)
 
 ## Descrição
 O objetivo do projeto é construir um modelo capaz de contar os dedos através da classificação de imagens e também distinguir entre a mão esquerda e a mão direita.
@@ -31,3 +33,33 @@ Os rótulos estão nos 2 últimos caracteres de um nome de arquivo:
 
 ### Observação
 Imagens da mão esquerda foram geradas invertendo imagens da mão direita.
+
+# Carregando o projeto : 
+
+Para rodar o código, siga os passos abaixo : 
+
+1. Crie um ambiente virtual com o comando :
+
+```bash 
+python -m venv venv
+```
+
+2. Incialize o ambiente virtul com o comando : 
+
+```bash
+.\venv\Scripts\activate
+```
+
+
+3. Instale as dependencias com o comando : 
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Para executar os códgios, inicialize o jupyter lab : 
+
+```bash
+jupyter lab
+```
+
