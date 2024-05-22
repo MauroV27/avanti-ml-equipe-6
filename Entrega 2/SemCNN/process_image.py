@@ -74,8 +74,8 @@ def image_preposing(img:Image, img_url:str="", is_r_hand:bool=False, finger_coun
     middle_point_in_lines = line_intersection(p_min_h, p_max_h, p_min_v, p_max_v)
 
     mean_middle_point = math.dist((mean['x'], mean['y']), (middle_point_in_lines['x'], middle_point_in_lines['y']))
-    # mean_middle_point = mean_middle_point / ((p_max_h['x'] - p_min_h['x']) * (p_max_v['y'] - p_min_v['y']))
-    # print("meanMiddlePoint:", mean_middle_point)
+    mean_middle_point = mean_middle_point / ((p_max_h['x'] - p_min_h['x'])) #* (p_max_v['y'] - p_min_v['y']))
+    #print("meanMiddlePoint:", mean_middle_point)
 
     # img.new('RGB', (128, 128)).save("result.png")
     # img.save("result.png", "PNG")
@@ -121,5 +121,8 @@ def image_data_extract(img_url:str, is_r_hand:bool, finger_count:int):
 
 if __name__ == "__main__":
 # img = Image.open("024db1c5-743a-43b5-8090-1d77877f80cf_2R.png")
-    img = Image.open("tsteimg-hand.png").convert("L")
+    import sys
+    img_path = sys.argv[1]
+    img = Image.open(img_path).convert("L")
     print(image_preposing(img, "", False, 1))
+
